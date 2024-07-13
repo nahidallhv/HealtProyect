@@ -10,6 +10,7 @@
 
 }
 
+
 .hero_section{
     width: 1440px;
     max-width: 100%;
@@ -521,4 +522,69 @@ align-items: center;
 gap: 10px;  
 border-radius: 10px;
 background: var(--Primary-500, #50945D);
+}
+
+.book_an_appointment{
+    width: 1207.578px;
+height: 679px;
+margin-left: 130px;
+margin-right: 83px;
+
+
+}
+
+.book_an_appointment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book_an_appointment_part2{
+    position: relative;
+    
+flex-shrink: 0;
+}
+.book_doctor_svg{
+    transform: rotate(90deg);
+    width: 520px;
+height: 520px;
+flex-shrink: 0; 
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+
+}
+
+.appointment_spec_logo{filter: invert(5%) sepia(153%) saturate(3207%) hue-rotate(140deg) brightness(105%) contrast(50%);
+    width: 192.099px;
+    height: 184.985px;
+    position: absolute;
+    right: -20px;
+    top: -50px;
+    flex-shrink: 0;
+    z-index: 5;
+}
+.book_doctor_img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+    
+}
+.book_doctor_img2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    
+   
+
+}
+.div_book_doctor_img{
+    width: 489px;
+    height: 596px;
+    flex-shrink: 0;
+   
+
 }
