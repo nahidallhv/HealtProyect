@@ -192,6 +192,8 @@ gap: 10px;
 flex-shrink: 0;
 border-radius: 10px;
 background: var(--Primary-500, #50945D);
+color: white;
+border: 1px solid white;
 
 }
 .footer_end{
